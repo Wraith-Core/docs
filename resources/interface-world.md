@@ -167,3 +167,17 @@ local all     = exports.w_doorlock:getAllDoors()
 ```
 
 *(Also accessible via `w_lib` door bridge exports: `exports.w_lib:DoorGetState`, `DoorSetState`, `DoorGetClosest`.)*
+
+---
+
+## `w_fasttravel`
+
+**Repository:** [`Wraith-Core/w_fasttravel`](https://github.com/Wraith-Core/w_fasttravel)  
+**License:** MIT  
+**Dependencies:** `w_lib`, `w_core`
+
+Fast travel & stagecoach station network across 10 RDR2 towns (Valentine, Rhodes, Saint Denis, Blackwater, Strawberry, Emerald Ranch, Annesburg, Van Horn, Armadillo, Tumbleweed), built 100% with **`w_lib`** (`w.prompt.at`, `w.blip`, `lib.registerContext`, `lib.alertDialog`, `lib.progressBar`, `lib.notify`).
+
+- **Interaction:** Walk up to any Fast Travel post and press **`J`**.
+- **Pricing:** Supports fixed per-town prices or distance-based pricing (`Config.PricingMode = 'fixed' | 'distance'`).
+- **Security:** Server verifies departure proximity, player state, cooldown, and charges `cash` (or `bank`) before travel.
