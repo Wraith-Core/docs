@@ -2,6 +2,20 @@
 
 ---
 
+## `w_adminmenu`
+
+**Repository:** [`Wraith-Core/w_adminmenu`](https://github.com/Wraith-Core/w_adminmenu)  
+**License:** MIT  
+**Dependencies:** `w_lib`, `w_core`
+
+Open-source RedM Admin Menu built 100% with **`w_lib`** native interfaces (`lib.registerContext`, `lib.inputDialog`, `lib.alertDialog`, `lib.notify`, `lib.showTextUI`, `lib.setClipboard`).
+
+- **Open:** Press **`F10`** (default keybind) or type **`/admin`**.
+- **Access:** Requires `w_adminmenu.open` ACE (granted to `group.admin` / `group.god` in `permissions.cfg`).
+- **Tools:** Noclip, God Mode, Invisibility, Self Heal/Revive, Waypoint/Coords/Town Teleports, Horse & Wagon Spawner, Online Player Management (Heal, GoTo, Bring, Spectate, Freeze, Inventory, Give Item, Money, Job/Gang, Kick, Ban), Server Announcements, Weather/Time Controls, Active Bans/Unban, and Developer Coords Copy.
+
+---
+
 ## `w_hud`
 
 **Repository:** [`Wraith-Core/w_hud`](https://github.com/Wraith-Core/w_hud)  

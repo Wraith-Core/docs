@@ -19,13 +19,14 @@ Designed around a unified library ([`w_lib`](https://github.com/Wraith-Core/w_li
 
 ---
 
-## Free Open-Source Stack (17 Resources)
+## Free Open-Source Stack (18 Resources)
 
 | Resource | Category | Role |
 | :--- | :--- | :--- |
 | [`w_lib`](https://github.com/Wraith-Core/w_lib) | Core | Unified UI, callbacks, prompts, placer, glow, blips, DB helpers, framework bridge, locales |
 | [`w_core`](https://github.com/Wraith-Core/w_core) | Core | Characters, money, jobs, gangs, metadata, ranks/ACE, bans, commands |
 | [`w_inventory`](https://github.com/Wraith-Core/w_inventory) | Core | Slot + metadata inventory, weapons, stashes, crafting, built-in shops |
+| [`w_adminmenu`](https://github.com/Wraith-Core/w_adminmenu) | Admin | Open-source admin menu built with `w_lib` interfaces (`/admin` or `F10`) |
 | [`w_chat`](https://github.com/Wraith-Core/w_chat) | Interface | Styled roleplay chat & command suggestions |
 | [`w_loading`](https://github.com/Wraith-Core/w_loading) | Interface | Configurable RedM loading screen & transition curtain |
 | [`w_creators`](https://github.com/Wraith-Core/w_creators) | Character | Character selector, creator, appearance persistence, death respawn |
