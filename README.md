@@ -19,7 +19,7 @@ Designed around a unified library ([`w_lib`](https://github.com/Wraith-Core/w_li
 
 ---
 
-## Free Open-Source Stack (19 Resources)
+## Free Open-Source Stack (23 Resources)
 
 | Resource | Category | Role |
 | :--- | :--- | :--- |
@@ -42,6 +42,10 @@ Designed around a unified library ([`w_lib`](https://github.com/Wraith-Core/w_li
 | [`w_management`](https://github.com/Wraith-Core/w_management) | Economy | Job & gang boss funds management |
 | [`w_policejob`](https://github.com/Wraith-Core/w_policejob) | Jobs | Law enforcement: duty, cuffing, escorting, jailing, evidence, armory |
 | [`w_medic`](https://github.com/Wraith-Core/w_medic) | Jobs | Doctors & hospitals: wounding, last stand, revive, hospital beds, pharmacy |
+| [`w_hunting`](https://github.com/Wraith-Core/w_hunting) | Gathering | 10 RDR2 butcher stalls, carcass sales (shoulder/horse), skinning loot, daily demand bonus |
+| [`w_fishing`](https://github.com/Wraith-Core/w_fishing) | Gathering | Native RDR2 fishing minigame, 9 baits/lures, 27 fish species & 8 fishmongers |
+| [`w_mining`](https://github.com/Wraith-Core/w_mining) | Gathering | 3 RDR2 mines + wild rocks, ore crushing, gold washing & 4 smelting furnaces |
+| [`w_lumberjack`](https://github.com/Wraith-Core/w_lumberjack) | Gathering | Wild forest tree chopping (130+ tree models), timber milling & 4 sawmills |
 
 > **Design Choices in the Free Stack:**
 > - **Shops** are handled directly by [`w_inventory`](core/w_inventory.md) (including General Stores, Police Armory, and Hospital Pharmacy).
